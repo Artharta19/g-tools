@@ -1,4 +1,10 @@
+<div align="center">
+
+<img src="docs/banner.svg" alt="g-tools banner" width="1000">
+
 # g-tools — the Zero-Copy Dataflow DAG Engine ecosystem
+
+### English · [Русский](README.ru.md)
 
 [![Release](https://img.shields.io/github/v/release/kostyk348/g-tools?sort=semver&color=blue)](https://github.com/kostyk348/g-tools/releases)
 [![CI](https://img.shields.io/github/actions/workflow/status/kostyk348/g-tools/ci.yml?branch=main&label=CI)](https://github.com/kostyk348/g-tools/actions/workflows/ci.yml)
@@ -7,7 +13,10 @@
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/kostyk348/g-tools?branch=main)](https://github.com/kostyk348/g-tools/commits/main)
 
-English · [Русский](README.ru.md)
+</div>
+
+---
+
 
 A monorepo built on the **g-proto / g-core** architecture: replacing POSIX I/O +
 scalar parsing with a dataflow DAG over a single mmap'd memory region, SIMD
