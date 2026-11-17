@@ -78,3 +78,13 @@ jobs:
 
       - name: Format
         run: cargo fmt --all --manifest-path bindings/rust/Cargo.toml --check
+
+  benchmark:
+    name: g-grep vs GNU grep (reproducible numbers)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure + build
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j
+      - name: Compare
+        run: ./benchmarks/compare.sh 2000000 NEEDLE_RECORD_1

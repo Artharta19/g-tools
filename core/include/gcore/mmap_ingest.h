@@ -11,6 +11,10 @@
 #include <cstdint>
 #include <cstdio>
 
+#if !defined(__linux__) && !defined(__APPLE__)
+#error "g-tools целевые платформы — Linux и macOS: ingest построен на POSIX mmap и raw syscalls. См. docs/PORTABILITY.md"
+#endif
+
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
