@@ -1,41 +1,39 @@
-<!-- BEGIN MICROSOFT SECURITY.MD V0.0.3 BLOCK -->
+# Security Policy
 
-## Security
+## Supported Versions
 
-Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations, which include [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), and [our GitHub organizations](https://opensource.microsoft.com/).
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.0   | :white_check_mark: |
+| 0.1.0   | :x:                |
 
-If you believe you have found a security vulnerability in any Microsoft-owned repository that meets Microsoft's [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10)) of a security vulnerability, please report it to us as described below.
+Security fixes are released for the versions marked as supported above.
 
-## Reporting Security Issues
+## Reporting a Vulnerability
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+Please **do not** report security vulnerabilities through public GitHub issues, discussions, or pull requests.
 
-Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://msrc.microsoft.com/create-report).
+Report them privately using GitHub's security advisory form:
 
-If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the the [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc).
+👉 [Report a vulnerability](https://github.com/kostyk348/g-tools/security/advisories/new)
 
-You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc).
+### What to Include
 
-Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+- A description of the vulnerability and its potential impact
+- Steps to reproduce, or a proof of concept
+- Affected versions or commit hashes
+- Any suggested fix or mitigation, if you have one
 
-  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+## Expected Response Time
 
-This information will help us triage your report more quickly.
+We don't currently commit to a fixed response time, but we will do our best to:
 
-If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) page for more details about our active programs.
+- Acknowledge new reports as soon as possible
+- Investigate and keep you updated on progress
+- Release a fix and publish an advisory once the issue is resolved
 
-## Preferred Languages
+We will keep you informed throughout the process and credit you in the advisory, unless you prefer to remain anonymous.
 
-We prefer all communications to be in English.
+## Disclosure Policy
 
-## Policy
-
-Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd).
-
-<!-- END MICROSOFT SECURITY.MD BLOCK -->
+Please give us a reasonable opportunity to fix the issue before any public disclosure.
